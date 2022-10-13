@@ -43,6 +43,12 @@ M.theme = function()
       c = color_pattern(palette.normal_gray, palette.status),
     },
 
+    terminal = {
+      a = color_pattern(palette.black, palette.red),
+      b = color_pattern(palette.normal_gray, palette.status_2),
+      c = color_pattern(palette.normal_gray, palette.status),
+    },
+
     visual = {
       a = color_pattern(palette.black, palette.yellow),
       b = color_pattern(palette.normal_gray, palette.status_2),
